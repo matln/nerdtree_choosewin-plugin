@@ -1,10 +1,10 @@
 " Define NERDTree key mappings.
-call NERDTreeAddKeyMap({
-      \ 'key':      '<2-LeftMouse>',
-      \ 'scope':    'FileNode',
-      \ 'callback': 'ChooseWinOpen',
-      \ 'override': 1
-      \ })
+" call NERDTreeAddKeyMap({
+"       \ 'key':      '<2-LeftMouse>',
+"       \ 'scope':    'FileNode',
+"       \ 'callback': 'ChooseWinOpen',
+"       \ 'override': 1
+"       \ })
 
 call NERDTreeAddKeyMap({
       \ 'key':      g:NERDTreeMapActivateNode,
